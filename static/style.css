@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700&display=swap');
+*{
+     margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color:#6f42c1;;
+    
+    height: 60px;
+    top: 0;
+    position: sticky;
+   
+}
+#navbar li{
+    margin-left: 50px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+ #logo img{
+     height: 60px;
+     margin-left: 10px;
+     filter: invert(100%);
+     
+ }
+ #logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 1.5rem;
+     font-family: 'Lato', sans-serif;
+ }
+ #navbar a:hover{
+     color: yellow;
+ }
+ #section{
+     background: center/cover no-repeat url(/static/bg.jpg);
+     height: 500px;}
+     .center{
+         text-align: center;
+         
+     }
+ #section1 h1{
+     margin: 10px;
+      font-family: 'Bree Serif', serif;
+      font-size: 55px;
+ }
+ #section1 h4{
+     font-weight: lighter;
+     font-size: 24px;
+     }
+     /* #section1{
+         border: 2px solid black;
+         
+     } */
+     #boxitems{
+         display: flex;
+         justify-content: center;
+         
+     }
+     .box{
+        /* border: 2px solid red; */
+        height: 230px;
+        width: 265px;
+        display: inline-block;
+        margin: 8px 40px;
+
+     }
+     .img{
+         display: flex;
+         justify-content: center;
+     }
+.boxcontent h4{
+    font-family: 'Bree Serif', serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+.boxcontent p{
+    margin-top: 10px;
+}
+#btn{
+justify-content: center;
+    display: flex;
+
+}
+
+.btn{
+    outline: none;
+    width: 250px;
+    height: 50px;
+    margin: 40px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+.btn:hover{
+    cursor: pointer;
+background-color: #1e44ff;
+color: white;
+}
+#partnerslogos{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    background: rgb(145, 155, 214);
+}
+.partnerslogos img{
+    margin: 4px 14px;
+    padding: 3px 15px;
+    height: 200px;
+    width: 200px;
+}
+#footer{
+    display: flex;
+    background: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+#partnerssection h1{
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@700&family=Zen+Antique+Soft&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+.headingtext h1{
+    font-family: 'Zen Antique Soft', serif;
+}
+.contactbg{
+    background: url(/static/contactbg.webp) center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactbg h1{
+    color: black;
+    font-size: 5rem;
+}
+
+div.headingtext {
+    /* background: rgb(155, 141, 160); */
+    background: rgb(196, 197, 120) ;
+    color: white;
+    padding: 9px 0px;
+}
+
+#formarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#formarea input{
+    border-radius: 18px;
+    width: 500px;
+    text-align: center;
+    margin: 16px 0px;
+    padding: 8px;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 15px;
+}
+#faculty{
+    border-radius: 18px;
+    width: 500px;
+    margin: 16px 0px;
+    padding: 8px;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 15px;
+}
+#faculty option{
+    text-align: center;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 15px;
+}
+textarea{
+    border-radius: 18px;
+    width: 500px;
+    margin: 16px 0px;
+    text-align: center;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 20px;
+}
+.btn{
+    border-radius: 18px;
+    outline: none;
+    width: 250px;
+    height: 50px;
+    margin: 40px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Zen Antique Soft', serif;
+}
+.btn:hover{
+    cursor: pointer;
+background-color: #6f42c1;
+color: white;
+}

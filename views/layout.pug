@@ -1,0 +1,22 @@
+html
+  head
+    title Love To Learn
+block style
+ style
+     include ../static/layoutstyle.css
+body
+    //- h1 Welcome to my site
+    nav#navbar 
+  
+     ul 
+       div#logo 
+         img(src="/static/logo2.png", alt="LOGO")
+         | Love To Learn
+       li #[a(href="/") Home]
+       li #[a(href="/") Courses]
+       li #[a(href="/") Enroll Now]
+       li #[a(href="/") About]
+       li #[a(href="/contact") Contact Us]
+    block content
+footer#footer 
+ Copyright © 2021 All rights reserved | Love To Learn
